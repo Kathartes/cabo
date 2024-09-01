@@ -8,6 +8,7 @@
 }
 .product-image {
     height: 80%;
+    border-radius: 50%;
 }
 .product-content {
     

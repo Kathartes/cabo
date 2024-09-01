@@ -4,10 +4,11 @@
     align-items: center;
     justify-content: center;
     gap:10rem;
-    
+    background: rgb(232, 238, 253);
 }
 .uses-image {
     height: 80%;
+    border-radius: 50%;
 }
 .uses-content {
     
