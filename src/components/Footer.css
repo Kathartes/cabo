@@ -1,0 +1,39 @@
+
+.footer-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .footer-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Asegura que el video esté detrás del contenido */
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 0; 
+    color: white;
+    
+    align-items: center;
+  }
+  .hero-content span {
+    font-size: 7.4rem;
+    color: black;
+  }
+  .hero-content img {
+    height: 200px;
+  }
+

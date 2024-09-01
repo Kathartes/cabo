@@ -1,0 +1,15 @@
+.product-section {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10rem;
+    
+}
+.product-image {
+    height: 80%;
+}
+.product-content {
+    
+    width: 500px
+}

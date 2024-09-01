@@ -1,0 +1,15 @@
+.uses-section {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10rem;
+    
+}
+.uses-image {
+    height: 80%;
+}
+.uses-content {
+    
+    width: 500px
+}
