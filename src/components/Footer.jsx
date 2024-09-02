@@ -10,7 +10,7 @@ const Footer = () => {
       </video>
       <div className="footer-content">
     
-        <h2>"no hay nada nuevo excepto lo que se ha olvidado"</h2>
+        <h3>"no hay nada nuevo excepto lo que se ha olvidado"</h3>
         
       </div>
        

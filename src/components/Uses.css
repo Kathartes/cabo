@@ -1,16 +1,14 @@
 .uses-section {
     height: 80vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap:10rem;
     background: rgb(232, 238, 253);
 }
-.uses-image {
-    height: 80%;
-    border-radius: 50%;
-}
-.uses-content {
+
+.uses-services {
+    display: flex;
     
-    width: 500px
 }

@@ -3,10 +3,7 @@
 }
 
 
-h2 {
-  font-size:2rem;
-  margin-bottom:1rem;
-}
+
 .form-container {
   display:flex;
 }
@@ -68,6 +65,7 @@ button {
 	border-radius: 20px;
 	border: 1px solid rgb(66, 115, 148);
 	background-color: rgb(66, 115, 148);
+  /*#000C5E*/
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;

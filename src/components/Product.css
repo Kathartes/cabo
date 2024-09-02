@@ -11,6 +11,31 @@
     border-radius: 50%;
 }
 .product-content {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 2rem;
+}
+.product-title {
+    font-family: 'subtitle-font';
+    text-transform: uppercase;
     
-    width: 500px
+}
+.product-text {
+    font-family: 'text-font';
+    line-height: 2;
+}
+.product-button {
+    width: 10rem;
+}
+
+@media (max-width: 1000px) {
+    .product-section {
+       flex-direction: column;
+       gap: 2rem;
+       padding: 2rem;
+    }
+    .product-image {
+        height: 50%;
+    }
 }

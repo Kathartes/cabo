@@ -5,7 +5,7 @@
 }
 @font-face {
   font-family: 'text-font';
-  src: url('/fonts/Montserrat-Light.ttf') format('truetype');
+  src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,6 +34,13 @@ h1 {
   
 }
 h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-family: 'title-font';
+
+}
+
+h3 {
   font-size: 2rem;
   text-transform: uppercase;
   font-family: 'title-font';
