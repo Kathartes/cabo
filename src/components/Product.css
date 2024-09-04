@@ -19,7 +19,7 @@
 .product-title {
     font-family: 'subtitle-font';
     text-transform: uppercase;
-    
+    color: rgb(19, 60, 87);
 }
 .product-text {
     font-family: 'text-font';

@@ -11,7 +11,7 @@ const Header = () => {
       </video>
       <div className="hero-content">
     
-        <h1><span>cabo</span> <br/> agua de mar</h1>
+        <h1><span className='cabo-title'>cabo</span> <br/> agua de mar</h1>
         
       </div>
     </header>

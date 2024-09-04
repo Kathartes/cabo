@@ -8,10 +8,12 @@ const Product = () => {
         <div className='product-content'>
           <h2 className='product-title'>botella 3l</h2>
           <p className='product-text'>
-          – Extraida a 6 millas nauticas del faro de Cabo Polonio<br/>
-          – 100% Agua de mar.<br/>
-          – Nivel de salinidad 4 veces superior al de nuestro cuerpo.<br/>
-          – Se recomienda beber hasta 0,5l al día.</p>
+          
+          Ofrecemos agua de mar extraída a 6-7 millas náuticas de Cabo polonio. 
+Dicha distancia se recorre para asegurarnos de que el resultado sea un agua lo más limpia y cristalina posible.  
+
+Llamamos agua de mar hipertónica al agua de mar que se encuentra en sus proporciones naturales, es decir, 100% agua de mar. Su composición y estructura se mantiene como en la naturaleza, al igual que su salinidad que se encuentra en unos 36-38g/L.
+</p>
               <button className='product-button'>pedir</button>
         </div>
 

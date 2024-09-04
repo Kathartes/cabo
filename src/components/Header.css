@@ -29,9 +29,9 @@
     transform: translateY(-10px);
     align-items: center;
   }
-  .hero-content span {
+  .cabo-title {
     font-size: 7.4rem;
-    color: black;
+    color:  rgb(19, 60, 87);
   }
   .hero-content img {
     height: 200px;

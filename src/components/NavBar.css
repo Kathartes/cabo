@@ -23,6 +23,7 @@
 .nav img {
     height: 200px;
     z-index: 2;
+    transform: translateY(-10px);
 }
 .line-nav {
     position: absolute;

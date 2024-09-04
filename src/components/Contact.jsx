@@ -8,10 +8,17 @@ const Contact = () => {
       <div className="left-container">
         <div className="left-inner-container">
         
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Repudiandae minus quod praesentium sed molestias amet beatae 
-            adipisci velit officiis unde ipsa aspernatur libero,
-             numquam dolores quam rem illum aliquid quaerat.</p>
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d113181.87875796523!2d-53.836154003309034!3d-34.3870143405052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDIzJzQxLjUiUyA1M8KwNDEnMDQuOCJX!5e1!3m2!1ses!2suy!4v1725401410157!5m2!1ses!2suy"
+        width="600"
+        height="450"
+        style={{ border: 0 }}
+        allowFullScreen=""
+        loading="lazy"
+        referrerPolicy="no-referrer-when-downgrade"
+        title="Mapa de Google"
+      ></iframe>
+
       </div>
         </div>
       <div className="right-container">
