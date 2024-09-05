@@ -41,9 +41,11 @@ const Benefits = () => {
         <article className="benefits-services">
         {services.map((service, index) => (
           <div key={index} className="benefits-cards">
+            <div className="benefits-cards-content">
               <img src={service.image} alt="" />
               <h4 className="benefits-cards-title">{service.title}</h4>
               <p className="benefits-cards-text">{service.text}</p>
+              </div>
           </div>
         ))}
         </article>

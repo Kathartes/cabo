@@ -19,7 +19,7 @@
 .uses-cards-content {
   width: 100%;
   height: 100%;
-  background-color: var(--layer-color);
+  background-color: var(--uses-color);
 display: flex;
 flex-direction: column;
 

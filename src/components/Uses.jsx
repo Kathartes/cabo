@@ -17,7 +17,7 @@ const Uses = () => {
     {
       image: '/public/image/alimentacion.jpg',
       title: 'Alimentacion',
-      text: 'Puede actuar como un regenerador celular y proteger el ADN.',
+      text: 'Potencia tus sabores Ideal para descongelar mariscos',
     },
     {
       image: '/public/image/deporte.jpg',

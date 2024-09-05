@@ -7,9 +7,11 @@
     overflow: hidden;
     align-items: center;
     justify-content: center;
-    
-  }
   
+  }
+  .hero-parallax {
+    overflow: hidden;
+}
   .hero-video {
     position: absolute;
     top: 0;
@@ -28,6 +30,7 @@
     color: white;
     transform: translateY(-10px);
     align-items: center;
+    overflow: hidden;
   }
   .cabo-title {
     font-size: 7.4rem;
@@ -37,7 +40,11 @@
     height: 200px;
   }
 
-
+.hero-slogan {
+  position: absolute;
+  bottom: 15px;
+  color: white;
+}
   
   .cta-button {
     background-color: #0066cc;
