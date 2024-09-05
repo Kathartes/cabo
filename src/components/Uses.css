@@ -1,15 +1,51 @@
 .uses-section {
     
     text-align: center;
-    
+    background-color: rgb(235, 245, 255);
 }
-.uses-cards {
-    border-radius: 15px;
-   
-    background-color: rgb(66, 115, 148);
-    
+.uses-title {
+    padding: 3rem 0;
+    color: rgb(19, 60, 87);
 }
 
+.uses-cards {
+    border-radius: 10px;
+    background-color: rgb(66, 115, 148);
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+   
+}
+.uses-cards-content {
+  width: 100%;
+  height: 100%;
+  background-color: var(--layer-color);
+display: flex;
+flex-direction: column;
+
+border-radius: 15px;
+}
+.uses-cards-content hr{
+    width: 80%;
+    margin: 2rem auto;
+    height: 2px;
+    background-color: white;
+    border-radius: 2px;
+  }
+
+.uses-cards-title {
+ font-family: 'title-font';
+ font-size: 2.4rem;
+ padding-top: 3rem ;
+  }
+  .uses-cards-text {
+    font-family: 'subtitle-font';
+    max-width: 25rem;
+    margin: 0 2rem;
+    font-size: 1.5rem;
+    text-align: left;
+     }
+   
 
 .uses-container {
     display: flex;
@@ -18,33 +54,46 @@
 }
 
 .swiper_container {
-    height: 30rem;
+    height: 40rem;
     padding: 2rem 0;
     position: relative;
+
   }
   
   .swiper-slide {
     width: 32rem;
-    height: 300px;
+    height: 30rem;
     position: relative;
-    border-radius: 15px;
-    -webkit-box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.26);
-    -moz-box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.26);
-    box-shadow: 0px 0px 49px 0px rgba(0,0,0,0.26);
+  
+    display: flex;
+    justify-content: center;
+    color: white;
   }
   
   @media (max-width: 500px) {
     .swiper_container {
-      height: 26rem;
+      height: 35rem;
     }
     .swiper-slide {
-      width: 28rem !important;
-      height: 36rem !important;
+      width: 20rem !important;
+      height: 25rem !important;
     }
     .swiper-slide img {
       width: 28rem !important;
       height: 36rem !important;
     }
+    .uses-cards-title {
+        font-family: 'title-font';
+        font-size: 1.6rem;
+        padding-top: 3rem ;
+         }
+         .uses-cards-text {
+           font-family: 'subtitle-font';
+           max-width: 25rem;
+           margin: 0 2rem;
+           font-size: 1.2rem;
+           text-align: left;
+            }
   }
   
   .swiper-slide img {

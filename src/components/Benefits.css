@@ -2,42 +2,56 @@
     background: url('/public/image/cabo-polonio.jpg');
     
     background-attachment: fixed;
+   
+}
+.benefits-layer {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(19, 60, 87, 0.048);
 }
 
 .benefits-title {
     
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding-top: 3rem;
 }
 .benefits-services {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height: 80vh;
-    width: 60%;
+   width: 60%;
     gap:  3rem;
-    margin: 2rem 0;
+    margin: 4rem 0;
 }
 
 .benefits-cards {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+   
     align-items: center;
-    height: 100%;
+    height: 22rem;
     width: 100%;
-    background-color: white;
-    padding: 0 2rem;
+    background-color:  white;
+    padding: 4rem 2rem;
     gap: 1rem;
+    border-radius: 2px;
+    
+}
+.benefits-cards img {
+    width: 64px;
+    
 }
 .benefits-cards-title {
     font-family: 'subtitle-font';
+    color: var(--title-color);
+    font-size: 1.25rem;
 }
 .benefits-cards-text {
     font-family: 'text-font';
+    color: black;
 }
 
 @media (max-width: 1000px) {

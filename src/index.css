@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #2f6e98;
+  --layer-color: rgba(13, 32, 68, 0.808);
+  --uses-color: #16364bcb;
+  --title-color: rgb(19, 60, 87);
+}
 * {
   margin: 0;
   padding: 0;
@@ -38,7 +44,7 @@ h1 {
   
 }
 h2 {
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
   font-family: 'title-font';
 
@@ -51,5 +57,18 @@ h3 {
 
 }
 
-
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  
+    
+  }
+  h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'title-font';
+  
+  }
+  
+}
 

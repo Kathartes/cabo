@@ -54,4 +54,9 @@
     background-color: #005bb5;
   }
   
- 
+ @media (max-width: 768px) {
+  .cabo-title {
+    font-size: 5rem;
+   
+  }
+ }

@@ -9,8 +9,12 @@ const Footer = () => {
         Your browser does not support the video tag.
       </video>
       <div className="footer-content">
-    
-        <h3>"no hay nada nuevo excepto lo que se ha olvidado"</h3>
+        
+          <img src="/public/image/instagram.svg" alt="" />
+          <img src="/public/image/facebook.svg" alt="" />
+          <img src="/public/image/whatsapp.svg" alt="" />
+        
+      
         
       </div>
        

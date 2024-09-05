@@ -1,19 +1,20 @@
 .product-section {
-    height: 80vh;
+   
     display: flex;
     align-items: center;
     justify-content: center;
     gap:10rem;
+   
     
 }
 .product-image {
-    height: 80%;
-    border-radius: 50%;
+    max-width: 450px;
+     margin: 5rem 0;
 }
 .product-content {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    max-width: 500px;
     gap: 2rem;
 }
 .product-title {
@@ -23,7 +24,8 @@
 }
 .product-text {
     font-family: 'text-font';
-    line-height: 2;
+    line-height: 1.5;
+    font-size: 1.2rem;
 }
 .product-button {
     width: 10rem;
@@ -35,7 +37,12 @@
        gap: 2rem;
        padding: 2rem;
     }
+   
+}
+@media (max-width: 768px) {
     .product-image {
-        height: 50%;
+        max-width: 300px;
+         margin: 5rem 0;
     }
+   
 }

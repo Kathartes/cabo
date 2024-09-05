@@ -22,7 +22,7 @@
   
   .footer-content {
     display: flex;
-    flex-direction: column;
+    gap: 2rem;
     position: relative;
     z-index: 0; 
     color: white;

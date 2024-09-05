@@ -15,46 +15,44 @@ const Uses = () => {
 
   const services = [
     {
-      image: '',
+      image: '/public/image/alimentacion.jpg',
       title: 'Alimentacion',
       text: 'Puede actuar como un regenerador celular y proteger el ADN.',
     },
     {
-      image: '',
+      image: '/public/image/deporte.jpg',
       title: 'Deporte',
       text: 'puede mejorar mejorar la salud del hígado y los riñones.',
     },
     {
-      image: '',
-      title: 'Higiene oral',
+      image: '/public/image/nasal.png',
+      title: 'Higiene nasal',
       text: 'Rica en minerales como el calcio, el magnesio, el potasio y el sodio, que son esenciales',
     },
     {
-      image: '',
-      title: 'Higiene nasal',
-      text: 'útil en la curación de heridas, erupciones y abrasiones. Mejora de a piel como el acné, la psoriasis o la dermatitis atópica.',
-    },
-    {
-      image: '',
-      title: 'Antiseptico',
-      text: 'contiene oligoelementos y antioxidantes pueden ayudar a fortalecer el sistema inmunológico y proteger al organismo de enfermedades.',
-    },
-    {
-      image: '',
+      image: '/public/image/laxante.jpg',
       title: 'Laxante',
       text: 'puede ayudar a hidratarla, mejorar su elasticidad y suavizar la piel seca y agrietada.',
     },
     {
-      image: '',
-      title: 'Descongelar mariscos',
-      text: 'puede ayudar a hidratarla, mejorar su elasticidad y suavizar la piel seca y agrietada.',
+      image: '/public/image/oral.jpg',
+      title: 'Higiene oral',
+      text: 'Rica en minerales como el calcio, el magnesio, el potasio y el sodio, que son esenciales',
     },
+   
+    {
+      image: '/public/image/antiseptico.jpg',
+      title: 'Desinfeccion',
+      text: 'contiene oligoelementos y antioxidantes pueden ayudar a fortalecer el sistema inmunológico y proteger al organismo de enfermedades.',
+    },
+    
+   
   ];
   return (
     <section className='uses-section'>
        
         
-        <h2>Modos de Uso</h2>
+        <h2 className='uses-title'>Modos de Uso</h2>
         <div className="uses-container">
         <Swiper
         effect={'coverflow'}
@@ -79,9 +77,10 @@ const Uses = () => {
       >
         {services.map((service, index) => (
           <SwiperSlide>
-            <div key={index} className="uses-cards">
+            <div key={index} className="uses-cards"  style={{ backgroundImage: `url(${service.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
               <div className="uses-cards-content">
                 <h4 className="uses-cards-title">{service.title}</h4>
+                <hr />
                 <p className="uses-cards-text">{service.text}</p>
               </div>
             </div>
