@@ -83,4 +83,16 @@
         height: 100%;
       
     }
+    .benefits-cards-text {
+        font-family: 'text-font';
+        color: black;
+        font-size: 0.9rem;
+    }
+    .benefits-cards-content {
+     
+       margin: 1rem;
+       
+        padding: 10px;
+        
+    }
 }

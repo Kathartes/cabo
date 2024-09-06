@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className='line-nav'></div>
       {/*Icono Whatsapp visible solo en pantallas chicas*/}
       <a href="https://wa.me/123456789" target="_blank" rel="noopener noreferrer" className="whatsapp-icon">
-        <img src="/image/whatsapp.svg" alt="WhatsApp" />
+        <img className="nav-wap" src="/image/whatsapp.svg" alt="WhatsApp" />
       </a>
 
       <a className='menu-a' href="#producto">producto</a>

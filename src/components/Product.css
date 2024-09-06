@@ -51,6 +51,7 @@
     background-color: var(--primary-color);
     width: 200px;
     height: 70px;
+    height: 600px; 
     position: absolute;
     bottom: 0;
     left: 0;

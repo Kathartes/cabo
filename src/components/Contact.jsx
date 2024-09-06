@@ -10,10 +10,10 @@ const Contact = () => {
           <form className="form" action="#">
               <h2 className="lg-view">Contacto</h2>
               
-            <input type="text" placeholder="Name *"  />
-            <input type="email" placeholder="Email *" />
-            <input type="phone" placeholder="Phone" />
-            <textarea rows="4" placeholder="Message"></textarea>
+            <input type="text" placeholder="Nombre"  />
+            <input type="email" placeholder="Email" />
+            <input type="phone" placeholder="Telefono" />
+            <textarea rows="4" placeholder="Mensage"></textarea>
             <button class="button">
             <span class="liquid"></span>  
             <span class="btn-txt">enviar</span>

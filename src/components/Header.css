@@ -44,7 +44,10 @@
   position: absolute;
   bottom: 15px;
   color: white;
+  text-align: center;
+  margin: 0 2rem;
 }
+
   
   .cta-button {
     background-color: #0066cc;
@@ -65,5 +68,10 @@
   .cabo-title {
     font-size: 5rem;
    
+  }
+  .hero-slogan {
+    font-size: 1.3rem;
+    margin: 0 2rem;
+    text-align: center;
   }
  }
