@@ -41,6 +41,11 @@
     overflow: hidden;
     cursor: pointer;
   }
+
+  .button a{
+    text-decoration: none;
+    color: #fff;
+  }
   
   .liquid {
     background-color: var(--primary-color);

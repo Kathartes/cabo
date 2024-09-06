@@ -3,12 +3,11 @@ import './Contact.css';
 
 const Contact = () => {
   return (
-    <div className="container">
+    <div className="container" id="contacto">
     <div className="form-container">
      
-      <div className="right-container">
-        <div className="right-inner-container">
-          <form action="#">
+     
+          <form className="form" action="#">
               <h2 className="lg-view">Contacto</h2>
               
             <input type="text" placeholder="Name *"  />
@@ -20,8 +19,7 @@ const Contact = () => {
             <span class="btn-txt">enviar</span>
           </button>
           </form>
-        </div>
-      </div>
+     
     </div>
   </div>
   );

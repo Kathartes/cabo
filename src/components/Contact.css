@@ -1,5 +1,8 @@
 .container {
     padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lg-view {
@@ -7,8 +10,49 @@
 }
 
 .form-container {
-  display:flex;
+  
+  width: 600px;
+  height: 600px;
+  background-color: rgba(62, 140, 192, 0.467);
+  box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.158),
+    10px 10px 20px rgba(0, 0, 0, 0.466),
+    inset -10px -10px 10px 10px rgba(203, 237, 255, 0.897);
+  border-radius: 51% 49% 62% 38% / 25% 57% 43% 75%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.form{
+display: flex;
+flex-direction: column;
+}
+
+.form-container::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: rgba(206, 240, 254, 0.842);
+  border-radius: 80% 20% 91% 9% / 48% 67% 33% 52%;
+  top: 75px;
+  left: 90px;
+}
+
+.form-container::before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color: rgba(206, 240, 254, 0.842);
+  border-radius: 48% 52% 45% 55% / 48% 67% 33% 52%;
+  top: 60px;
+  left: 140px;
+}
+
 
 
 .right-container {
@@ -47,11 +91,11 @@
 }
 
 input, textarea {
-	background-color: #eee;
+	background-color: #def1ff;
 	border: none;
 	padding: 12px 15px;
 	margin: 8px 0;
-	width: 100%;
+	width: 300px;
   font-size:0.8rem;
 }
 

@@ -26,7 +26,7 @@ const Benefits = () => {
     {
       image: '/public/image/inmune.png',
       title: 'Sistema inmunológico',
-      text: 'contiene oligoelementos y antioxidantes pueden ayudar a fortalecer el sistema inmunológico y proteger al organismo de enfermedades.',
+      text: 'contiene oligoelementos y antioxidantes que ayudan a fortalecer el sistema inmunológico y proteger al organismo de enfermedades.',
     },
     {
       image: '/public/image/piel.png',
@@ -35,7 +35,7 @@ const Benefits = () => {
     },
   ];
   return (
-    <section className='benefits-section'>
+    <section className='benefits-section' id="beneficios">
       <div className='benefits-layer'>
       <h2 className='benefits-title'>beneficios</h2>
         <article className="benefits-services">

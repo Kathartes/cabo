@@ -10,9 +10,9 @@ const Footer = () => {
       </video>
       <div className="footer-content">
         
-          <img src="/public/image/instagram.svg" alt="" />
-          <img src="/public/image/facebook.svg" alt="" />
-          <img src="/public/image/whatsapp.svg" alt="" />
+          <img src="/image/instagram.svg" alt="" />
+          <img src="/image/facebook.svg" alt="" />
+          <img src="/image/whatsapp.svg" alt="" />
         
       
         

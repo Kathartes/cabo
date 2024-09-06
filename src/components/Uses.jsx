@@ -49,7 +49,7 @@ const Uses = () => {
    
   ];
   return (
-    <section className='uses-section'>
+    <section className='uses-section' id="usos">
        
         
         <h2 className='uses-title'>Modos de Uso</h2>

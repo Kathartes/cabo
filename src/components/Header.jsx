@@ -9,7 +9,7 @@ const Header = () => {
      
       <Navbar />
       <video className="hero-video" autoPlay loop muted>
-        <source src="../../public/video/hero-sea.webm" type="video/webm" />
+        <source src="/video/hero-sea.webm" type="video/webm" />
         Your browser does not support the video tag.
       </video>
     

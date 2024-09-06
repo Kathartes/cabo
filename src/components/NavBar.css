@@ -6,30 +6,129 @@
     display: flex;
     justify-content: space-evenly;
     background: linear-gradient(0deg, rgba(255,255,255,0) 50%, rgba(87, 117, 148, 0.226) 100%);
-}
-.nav a {
+  }
+  
+  .menu-a {
     text-decoration: none;
     font-family: 'title-font';
     text-transform: uppercase;
-    color:white;
+    color: white;
     font-size: 1.3rem;
     padding-top: 2rem;
     width: 100%;
-    text-align:center;
-}
-.nav a:hover {
+    text-align: center;
+  }
+  
+  .menu-a:hover {
     background: linear-gradient(0deg, rgba(255,255,255,0) 50%, rgba(87, 117, 148, 0.226) 100%);
-}
-.nav img {
+  }
+  
+  .logo {
     height: 200px;
     z-index: 2;
     transform: translateY(-10px);
-}
-.line-nav {
+  }
+  
+  .line-nav {
     position: absolute;
     z-index: 1;
     background-color: white;
     width: 90%;
     height: 2px;
     top: 90px;
-}
+  }
+
+  .whatsapp-icon {
+    display: none;
+
+  }
+
+
+
+  .hamburger-menu {
+    display: none;
+
+  }
+
+  .burguer-a{
+    display: none;
+  }
+  
+
+  @media (max-width: 768px) {
+
+    .menu-a {
+      display: none;
+    }
+  
+
+    .whatsapp-icon {
+      display: block;
+      position: absolute;
+      top: -25px;
+      left: 45px;
+      z-index: 5;
+    }
+  
+    .whatsapp-icon img {
+      width: 45px;
+      height: 45px;
+    }
+  
+    .hamburger-menu {
+      display: block;
+      position: absolute;
+      top: 30px;
+      right: 45px;
+      z-index: 3;
+      cursor: pointer;
+    }
+  
+    .menu-icon {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 40px;
+      height: 40px;
+    }
+  
+    .menu-icon .bar {
+      width: 100%;
+      height: 3px;
+      background-color: white;
+      transition: 0.4s;
+    }
+  
+  
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 10px;
+      background-color: var(--primary-color);
+      padding: 1rem;
+      border-radius: 5px;
+      z-index: 4;
+    }
+  
+    .nav-links.open {
+      display: block;
+    }
+  
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin: 0.5rem 0;
+    }
+  
+   
+    .nav img {
+      height: 150px;
+      margin: 0 auto;
+    }
+
+    .burguer-a{
+        display:block
+      }
+  }

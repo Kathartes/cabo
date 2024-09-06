@@ -64,6 +64,7 @@
 .benefits-cards-text {
     font-family: 'text-font';
     color: black;
+    font-size: 0.9rem;
 }
 
 @media (max-width: 1000px) {
