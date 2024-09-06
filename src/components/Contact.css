@@ -59,12 +59,12 @@ input:focus, textarea:focus{
   outline:1px solid teal;
 }
 
-button {
+/*button {
 	border-radius: 20px;
 	border: 1px solid rgb(66, 115, 148);
-	background-color: rgb(66, 115, 148);
+	background-color: rgb(66, 115, 148);*/
   /*#000C5E*/
-	color: #FFFFFF;
+	/*color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
 	padding: 12px 45px;
@@ -78,7 +78,7 @@ button:hover {
   opacity:0.7;
 }
 
-
+*/
 
 
 form p {
