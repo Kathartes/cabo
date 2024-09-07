@@ -16,17 +16,21 @@
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    gap: 2rem;
+    gap: 1rem;
 }
 .product-title {
     font-family: 'subtitle-font';
     text-transform: uppercase;
     color: rgb(19, 60, 87);
 }
+.product-title span  {
+  font-family: 'title-font';
+ 
+}
 .product-text {
     font-family: 'text-font';
     line-height: 1.5;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 /* From Uiverse.io by abuayaan01 */ 
 .button {
@@ -34,9 +38,9 @@
     border: 0px;
     outline: 0px;
     color: #fff;
-    width: 150px;
+    width: 180px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 25px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
@@ -74,7 +78,7 @@
   }
   .button:hover  .liquid{
     background-color:  var(--title-color);
-    height: 600px; 
+    height: 300px; 
     transition: all 20s ease;
   }
   

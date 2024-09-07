@@ -39,9 +39,9 @@ border-radius: 15px;
  padding-top: 3rem ;
   }
   .uses-cards-text {
-    font-family: 'subtitle-font';
+    font-family: 'text-font';
     max-width: 25rem;
-    margin: 0 2rem;
+    margin: 0 3rem;
     font-size: 1.5rem;
     text-align: left;
      }

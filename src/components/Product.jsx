@@ -4,9 +4,9 @@ import './Product.css';
 const Product = () => {
   return (
     <section className='product-section' id="producto">
-        <img className='product-image' src="/public/image/bottle.jpg" alt="botella de cabo" />
+        <img className='product-image' src="/public/image/product.webp" alt="botella de cabo" />
         <div className='product-content'>
-          <h2 className='product-title'>botella 3l</h2>
+          <h2 className='product-title'>botella <span>3l</span></h2>
           <p className='product-text'>
           
           Ofrecemos agua de mar extraída a 6-7 millas náuticas de Cabo polonio. 
