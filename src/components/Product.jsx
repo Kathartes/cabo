@@ -14,10 +14,10 @@ Dicha distancia se recorre para asegurarnos de que el resultado sea un agua lo m
 
 Llamamos agua de mar hipertónica al agua de mar que se encuentra en sus proporciones naturales, es decir, 100% agua de mar. Su composición y estructura se mantiene como en la naturaleza, al igual que su salinidad que se encuentra en unos 36-38g/L.
 </p>
-          <button class="button">
+          <button className="button">
             <a href="#contacto">
-            <span class="liquid"></span>  
-            <span class="btn-txt">Pedir</span>
+            <span className="liquid"></span>  
+            <span className="btn-txt">Pedir</span>
             </a>
           </button>
         </div>

@@ -14,7 +14,7 @@ import './Uses.css';
 const Uses = () => {
 
   const services = [
-    {
+    { 
       image: '/public/image/alimentacion.jpg',
       title: 'Alimentacion',
       text: 'Potencia tus sabores Ideal para descongelar mariscos',
@@ -77,6 +77,7 @@ const Uses = () => {
       >
         {services.map((service, index) => (
           <SwiperSlide>
+            
             <div key={index} className="uses-cards"  style={{ backgroundImage: `url(${service.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
               <div className="uses-cards-content">
                 <h4 className="uses-cards-title">{service.title}</h4>
