@@ -13,15 +13,16 @@
   
   width: 600px;
   height: 600px;
-  background-color: rgba(62, 140, 192, 0.467);
+ /* background-color: rgba(62, 140, 192, 0.467);
   box-shadow: inset 10px 10px 10px 10px rgba(0, 0, 0, 0.158),
     10px 10px 20px rgba(0, 0, 0, 0.466),
     inset -10px -10px 10px 10px rgba(203, 237, 255, 0.897);
   border-radius: 51% 49% 62% 38% / 25% 57% 43% 75%;
-  position: relative;
+  position: relative;*/
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
 }
 
 .form{
@@ -67,10 +68,12 @@ flex-direction: column;
 .left-container {
   display:flex;
   flex:1;
-  height:480px;
+  height:460px;
+  width: 100%;
   justify-content:center;
   align-items:center;
     color:white;
+    background-color: var(--primary-color);
 }
 
 .left-container p {

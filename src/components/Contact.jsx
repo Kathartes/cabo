@@ -5,11 +5,12 @@ const Contact = () => {
   return (
     <div className="container" id="contacto">
     <div className="form-container">
-     
+      <div className='left-container'>
+
+      </div>
      
           <form className="form" action="#">
               <h2 className="lg-view">Contacto</h2>
-              
             <input type="text" placeholder="Nombre"  />
             <input type="email" placeholder="Email" />
             <input type="phone" placeholder="Telefono" />
