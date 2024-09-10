@@ -4,32 +4,32 @@ import './Benefits.css';
 const Benefits = () => {
   const services = [
     {
-      image: '/public/image/regeneracion.png',
+      image: '/image/regeneracion.png',
       title: 'Regeneracion',
       text: 'Puede actuar como un regenerador celular y proteger el ADN.',
     },
     {
-      image: '/public/image/toxina.png',
+      image: '/image/toxina.png',
       title: 'Eliminación de toxinas:',
       text: 'puede mejorar mejorar la salud del hígado y los riñones.',
     },
     {
-      image: '/public/image/hidratacion.png',
+      image: '/image/hidratacion.png',
       title: 'Hidratacion',
       text: 'Rica en minerales como el calcio, el magnesio, el potasio y el sodio, que son esenciales',
     },
     {
-      image: '/public/image/cicatrizacion.png',
+      image: '/image/cicatrizacion.png',
       title: 'Cicatrización',
       text: 'útil en la curación de heridas, erupciones y abrasiones. Mejora de a piel como el acné, la psoriasis o la dermatitis atópica.',
     },
     {
-      image: '/public/image/inmune.png',
+      image: '/image/inmune.png',
       title: 'Sistema inmunológico',
       text: 'contiene oligoelementos y antioxidantes que ayudan a fortalecer el sistema inmunológico y proteger al organismo de enfermedades.',
     },
     {
-      image: '/public/image/piel.png',
+      image: '/image/piel.png',
       title: 'Salud de la piel',
       text: 'puede ayudar a hidratarla, mejorar su elasticidad y suavizar la piel seca y agrietada.',
     },

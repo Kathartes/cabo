@@ -19,7 +19,7 @@ const Header = () => {
         
       </div>
     
-      <h3 className="hero-slogan"> No hay nada nuevo excepto lo que se ha olvidado</h3>
+      
     </header>
   );
 }

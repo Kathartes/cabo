@@ -15,33 +15,33 @@ const Uses = () => {
 
   const services = [
     { 
-      image: '/public/image/alimentacion.jpg',
+      image: '/image/alimentacion.jpg',
       title: 'Alimentacion',
       text: 'Potencia tus sabores Ideal para descongelar mariscos',
     },
     {
-      image: '/public/image/deporte.jpg',
+      image: '/image/deporte.jpg',
       title: 'Deporte',
       text: 'puede mejorar mejorar la salud del hígado y los riñones.',
     },
     {
-      image: '/public/image/nasal.png',
+      image: '/image/nasal.png',
       title: 'Higiene nasal',
       text: 'Rica en minerales como el calcio, el magnesio, el potasio y el sodio, que son esenciales',
     },
     {
-      image: '/public/image/laxante.jpg',
+      image: '/image/laxante.jpg',
       title: 'Laxante',
       text: 'puede ayudar a hidratarla, mejorar su elasticidad y suavizar la piel seca y agrietada.',
     },
     {
-      image: '/public/image/oral.jpg',
+      image: '/image/oral.jpg',
       title: 'Higiene oral',
       text: 'Rica en minerales como el calcio, el magnesio, el potasio y el sodio, que son esenciales',
     },
    
     {
-      image: '/public/image/antiseptico.jpg',
+      image: '/image/antiseptico.jpg',
       title: 'Desinfeccion',
       text: 'contiene oligoelementos y antioxidantes pueden ayudar a fortalecer el sistema inmunológico y proteger al organismo de enfermedades.',
     },
